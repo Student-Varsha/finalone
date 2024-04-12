@@ -1339,6 +1339,23 @@ color: rgba( 10,10,10,0.01)
     display: none;
     border: 3px solid black;
 }
+
+.hiddenicon
+{
+    display: none;
+}
+.pic4
+{
+    display: none;
+}
+.pic5
+{
+    display: none;
+}
+.pic6
+{
+    display: none;
+}
 @media (max-width:600px)
 {
     *
@@ -1362,16 +1379,19 @@ color: rgba( 10,10,10,0.01)
 .pic1
 {
     height:1.5vh;
-   visibility: visible;
+   visibility: hidden;
+   margin-top: 0px;
+   margin-bottom: 0px;
 }
 .pic2
 {
     height:1.8vh;
-   visibility: visible;
+   visibility: hidden;
 }
 .pic3
 {
-    visibility: visible;
+    
+    visibility: hidden;
     height:1.8vh;
     
    
@@ -1415,7 +1435,7 @@ color: rgba( 10,10,10,0.01)
     font-family: Arial, Helvetica, sans-serif;
     position: absolute;
     right:15px;
-    top:15px;
+    top:35px;
     
     
 }
@@ -1441,7 +1461,8 @@ color: rgba( 10,10,10,0.01)
 }
 .inputicons
 {
-    display: flex;
+    display: none;
+   
     /* justify-content: center;
     align-items: center;
     gap: 8px; */
@@ -1450,7 +1471,7 @@ color: rgba( 10,10,10,0.01)
 
 .inputicons ul 
 {
-    display: flex;
+    display: none;
     /* flex-direction: row;
     list-style: none;
     gap: 8px;
@@ -2502,7 +2523,7 @@ right:70px;
     display: block;
     position: absolute;
     left: 15px;
-    top:15px;
+    top:35px;
     
 }
 .line
@@ -2513,6 +2534,37 @@ right:70px;
     margin: 3px 3px; 
 
 }
+.hiddenicon
+{
+    display: flex;
+
+}
+.pic4{
+    display: flex;
+    height:15px;
+    margin-top: -44px;
+    margin-left: -125px;
+
+}
+.pic5{
+    display: flex;
+    height:15px;
+    position:absolute;
+    top:85px;
+    right:90px;
+   
+
+}
+ .pic6{
+      display: flex;
+    height:10px;
+    position:absolute;
+    top:87.5px;
+    right:70px;
+   
+   
+} 
+
 }
 
 
