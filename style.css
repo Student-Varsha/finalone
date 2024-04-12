@@ -1363,6 +1363,28 @@ color: rgba( 10,10,10,0.01)
 .question{
     display: none;
 }
+.endhidden
+{
+    display: none;
+
+}
+.indiahidden
+{
+    display: none;
+}
+.chnadihidden
+{
+    display: none;
+}
+.updatehidden
+{
+    display: none;
+}
+.termshidden
+
+{
+    display: none;
+}
 @media (max-width:600px)
 {
     *
@@ -1624,7 +1646,7 @@ color: rgba( 10,10,10,0.01)
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width:25%;
+    width:30%;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 10px;
     border-radius: 8px;
@@ -1750,17 +1772,19 @@ footer a{
 .endelement3
 {
     color:#1a0dab;
+    display: none;
 
 }
 .endelement4
 {
     color:#1a0dab;
+    display: none;
 
 } 
 
-/* .footer1
+.footer1
 {
-display: flex;
+display:none;
 justify-content: start;
 align-items: center;
 
@@ -1772,9 +1796,9 @@ flex-direction: column;
 
 
 
-}  */
+}  
 .end {
-    display: flex;
+    display: none;
     justify-content: start;
     align-items: center;
       width:100%;  
@@ -1789,12 +1813,14 @@ flex-direction: column;
 }
 .endelement1
 {
+    display: none;
     color:#5e5e5e;
     font-size: 14px;
    
 }
 .endelement2
 {
+    display: none;
     color:#474747;
     font-size: 14px;
     /* margin-left: 20px; */
@@ -1803,6 +1829,7 @@ flex-direction: column;
 }
  .India
 {
+    display: none;
     /* height: 100%; */
     /* border-right: 1px solid rgba( 13,13,13,0.1); */
     /* width:4%; */
@@ -2558,7 +2585,7 @@ right:70px;
     display: flex;
     height:15px;
     position:absolute;
-    top:60px;
+    top:62px;
     right:60px;
    
 
@@ -2567,7 +2594,7 @@ right:70px;
       display: flex;
     height:10px;
     position:absolute;
-    top:60px;
+    top:66px;
     right:40px;
    
    
@@ -2583,6 +2610,48 @@ right:70px;
     height:15px;
     margin-left: 110px;
 
+}
+.endhidden{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap:13px;
+    background-color: #f2f2f2;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.indiahidden
+{
+    display: flex;
+    color:#5e5e5e;
+    font-size: 14px;
+}
+.chnadihidden
+{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color:#474747;
+    font-size: 14px;
+}
+.updatehidden
+{
+    display:flex;
+    color:#1a0dab;
+    font-size: 14px;
+}
+.termshidden
+
+{
+    display:flex;
+    font-size: 14px;
+    color:#5e5e5e;
+}
+.colorchange
+{
+    color:#1a0dab;
 }
 
 }
