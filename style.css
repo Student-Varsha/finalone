@@ -2558,8 +2558,8 @@ right:70px;
     display: flex;
     height:15px;
     position:absolute;
-    top:85px;
-    right:90px;
+    top:60px;
+    right:60px;
    
 
 }
@@ -2567,8 +2567,8 @@ right:70px;
       display: flex;
     height:10px;
     position:absolute;
-    top:87.5px;
-    right:70px;
+    top:60px;
+    right:40px;
    
    
 } 
@@ -2581,7 +2581,7 @@ right:70px;
 {
     display: flex;
     height:15px;
-    margin-left: 100px;
+    margin-left: 110px;
 
 }
 
