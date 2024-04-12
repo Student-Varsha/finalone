@@ -1356,6 +1356,13 @@ color: rgba( 10,10,10,0.01)
 {
     display: none;
 }
+.pic8
+{
+    display: none;
+}
+.question{
+    display: none;
+}
 @media (max-width:600px)
 {
     *
@@ -1578,6 +1585,7 @@ color: rgba( 10,10,10,0.01)
     border-bottom: 8px solid #f2f2f2;
     color:#70757a;
     font-size: 10px;
+    width:100%;
    
 
 }
@@ -1614,9 +1622,9 @@ color: rgba( 10,10,10,0.01)
 .hindi2
 {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    width:30%;
+    width:25%;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 10px;
     border-radius: 8px;
@@ -1625,7 +1633,7 @@ color: rgba( 10,10,10,0.01)
     padding:  2px 10px;
     color:#70757a;
     font-size: 10px;
-   
+    
     
 }
 .a100
@@ -1789,7 +1797,7 @@ flex-direction: column;
 {
     color:#474747;
     font-size: 14px;
-    margin-left: 20px;
+    /* margin-left: 20px; */
     
   
 }
@@ -2543,15 +2551,15 @@ right:70px;
     display: flex;
     height:15px;
     margin-top: -44px;
-    margin-left: -100px;
+    margin-left: -140px;
 
 }
 .pic5{
     display: flex;
     height:15px;
     position:absolute;
-    top:60px;
-    right:70px;
+    top:85px;
+    right:90px;
    
 
 }
@@ -2559,11 +2567,23 @@ right:70px;
       display: flex;
     height:10px;
     position:absolute;
-    top:60px;
-    right:50px;
+    top:87.5px;
+    right:70px;
    
    
 } 
+.pic8
+{
+    height:15px;
+    display: flex;
+}
+.question
+{
+    display: flex;
+    height:15px;
+    margin-left: 100px;
+
+}
 
 }
 
